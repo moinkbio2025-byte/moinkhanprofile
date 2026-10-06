@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Moin Khan — Biotechnology Student &amp; Technology Enthusiast</title>
+<style>
+:root{--bg:#0d0f1f;--ink:#ecebff;--mute:#9a9cc4;--accent:#7a6bff;--warm:#ffb454;--line:rgba(236,235,255,.14);--panel:rgba(18,20,42,.62);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0f1f}}
+:root[data-theme="dark"]{--bg:#0d0f1f}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;line-height:1.6}
+#gl{position:fixed;inset:0;width:100%;height:100%;z-index:0;display:block}
+main,header{position:relative;z-index:1}
+header{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:calc(18px + env(safe-area-inset-top,0px)) 5vw 18px;z-index:5}
+.logo{font-weight:700;letter-spacing:.02em;color:var(--ink);text-decoration:none}
+nav a{color:var(--mute);text-decoration:none;margin-left:22px;font-size:.95rem}
+nav a:hover,nav a:focus-visible{color:var(--ink)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--warm);outline-offset:3px}
+section{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:110px 5vw 80px;max-width:1100px}
+.hero h1{font-size:clamp(3.2rem,11vw,8.5rem);line-height:.92;margin:0 0 22px;font-weight:800;letter-spacing:-.045em}
+.hero p{max-width:34em;color:var(--mute);font-size:1.15rem;margin:0 0 30px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:13px 24px;border-radius:999px;text-decoration:none;font-weight:600;border:1px solid var(--line);color:var(--ink);background:var(--panel);backdrop-filter:blur(8px)}
+.btn.main{background:var(--accent);border-color:var(--accent)}
+.btn:hover{border-color:var(--warm)}
+h2{font-size:clamp(1.8rem,4vw,2.8rem);margin:0 0 22px;letter-spacing:-.02em}
+.panel{background:var(--panel);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:18px;padding:28px;max-width:720px}
+.panel p{margin:0 0 12px;color:var(--mute)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card{background:var(--panel);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:18px;padding:24px;transition:transform .2s ease,border-color .2s ease;will-change:transform}
+.card:hover{border-color:var(--warm)}
+.card h3{margin:0 0 8px;font-size:1.2rem}
+.card p{margin:0;color:var(--mute);font-size:.97rem}
+.tags{display:flex;flex-wrap:wrap;gap:10px}
+.tags span{padding:9px 16px;border:1px solid var(--line);border-radius:999px;background:var(--panel);backdrop-filter:blur(8px)}
+.note{color:var(--warm);font-size:.88rem;margin-top:14px}
+footer{position:relative;z-index:1;padding:30px 5vw 50px;color:var(--mute);font-size:.9rem}
+.hint{position:fixed;right:5vw;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:5;color:var(--mute);font-size:.85rem;pointer-events:none}
+@media (max-width:640px){nav a{margin-left:14px;font-size:.88rem}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
+</style>
+</head>
+<body>
+<canvas id="gl" aria-hidden="true"></canvas>
+<header>
+  <a class="logo" href="#top">Moin Khan</a>
+  <nav><a href="#about">About</a><a href="#education">Education</a><a href="#bring">Strengths</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+</header>
+<main id="top">
+  <section class="hero">
+    <h1>Moin<br>Khan</h1>
+    <p>Biotechnology Student | Technology Enthusiast | Creative Problem Solver</p>
+    <div class="btns"><a class="btn main" href="#bring">What I bring</a><a class="btn" href="#contact">Get in touch</a></div>
+  </section>
+
+  <section id="about">
+    <h2>About me</h2>
+    <div class="panel">
+      <p>I am a motivated and curious B.Sc. Biotechnology student with a strong interest in science, technology, communication, and creative work.</p>
+      <p>Currently in my third semester at Sant Singaji Institute of Science and Management, Sandalpur, I am continuously developing both my academic knowledge and practical skills. My biotechnology studies have helped me understand the importance of scientific thinking, problem-solving, and innovation.</p>
+      <p>Beyond academics, I enjoy working with technology and exploring different areas such as digital content, social media, video editing, presentations, and team management. I believe that true growth comes from continuously learning new skills and applying them in real-world situations.</p>
+      <p>I consider myself a dedicated learner, effective communicator, and responsible team member. My goal is to build a career where I can combine my knowledge, creativity, communication skills, and interest in technology to contribute to meaningful projects.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="panel">
+      <h3 style="margin:0 0 4px;font-size:1.3rem">Bachelor of Science in Biotechnology</h3>
+      <p style="color:var(--ink);margin:0 0 4px">Sant Singaji Institute of Science and Management, Sandalpur</p>
+      <p style="color:var(--warm);margin:0 0 16px">Currently pursuing B.Sc. Biotechnology, 3rd Semester</p>
+      <p>My academic journey is focused on understanding biotechnology, life sciences, laboratory concepts, scientific thinking, and the applications of technology in biology.</p>
+      <p>I am continuously expanding my knowledge through academic learning, practical exploration, presentations, and independent learning.</p>
+    </div>
+  </section>
+
+  <section id="bring">
+    <h2>What I bring</h2>
+    <div class="grid">
+      <article class="card"><h3>Scientific thinking</h3><p>My biotechnology background has developed my interest in science, research, observation, and problem-solving.</p></article>
+      <article class="card"><h3>Technology</h3><p>I enjoy exploring technology and digital tools that can make work more efficient, creative, and impactful.</p></article>
+      <article class="card"><h3>Communication</h3><p>I believe a good idea becomes powerful when it can be communicated clearly. I continuously work on improving my communication and presentation abilities.</p></article>
+      <article class="card"><h3>Teamwork</h3><p>I enjoy collaborating with people, coordinating tasks, and contributing to a positive team environment.</p></article>
+      <article class="card"><h3>Creativity</h3><p>From video editing and social media to presentations, I like turning ideas into engaging and meaningful content.</p></article>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="panel" style="margin-bottom:18px"><h3 style="margin:0 0 14px;font-size:1.15rem">Technical and digital skills</h3><div class="tags"><span>MS Office</span><span>Intermediate Python</span><span>Video editing</span><span>Social media management</span><span>Digital tools and online platforms</span></div></div>
+    <div class="panel" style="margin-bottom:18px"><h3 style="margin:0 0 14px;font-size:1.15rem">Professional skills</h3><div class="tags"><span>Communication</span><span>Presentation skills</span><span>Team management</span><span>Team coordination</span><span>Sales</span><span>Problem solving</span><span>Time management</span></div></div>
+    <div class="panel" style="margin-bottom:18px"><h3 style="margin:0 0 14px;font-size:1.15rem">Personal strengths</h3><div class="tags"><span>Quick learner</span><span>Adaptability</span><span>Creativity</span><span>Leadership and coordination</span><span>Positive attitude</span><span>Continuous learning</span></div></div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's connect</h2>
+    <div class="panel">
+      <p>I believe in learning from people, sharing ideas, and building meaningful professional connections.</p>
+      <p>You can connect with me through my social platforms and follow my journey as I continue to grow in biotechnology, technology, and digital skills.</p>
+      <div class="btns">
+        <a class="btn main" href="https://www.instagram.com/imoin50" target="_blank" rel="noopener">Instagram: @imoin50</a>
+        <span class="btn">LinkedIn: Moin Khan</span>
+      </div>
+    </div>
+    <div class="panel" style="margin-top:18px">
+      <h3 style="margin:0 0 12px;font-size:1.3rem">Get in touch</h3>
+      <p>Have an idea, opportunity, collaboration, or simply want to connect?</p>
+      <p>I would be happy to hear from you. Whether it is related to biotechnology, technology, digital work, creative projects, or professional opportunities, feel free to reach out.</p>
+      <div class="btns" style="margin:16px 0 22px">
+        <a class="btn main" href="mailto:moinkhan03505@gmail.com">Email: moinkhan03505@gmail.com</a>
+        <a class="btn" href="tel:+917024277944">Phone: +91 7024277944</a>
+      </div>
+      <h3 style="margin:0 0 8px;font-size:1.15rem">Let's create something meaningful</h3>
+      <p>I am always open to learning, collaborating, and exploring new opportunities that help me grow personally and professionally.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <strong style="color:var(--ink);font-size:1.1rem">Moin Khan</strong><br>
+  B.Sc. Biotechnology Student | Technology Enthusiast | Creative Learner<br>
+  Learn • Create • Connect • Grow<br>
+  <span style="display:block;margin-top:10px">© 2026 Moin Khan. All Rights Reserved.</span>
+</footer>
+<div class="hint">Move your mouse or finger</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var canvas = document.getElementById('gl');
+  var renderer = new THREE.WebGLRenderer({canvas:canvas,antialias:true,alpha:true});
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio,2));
+  var scene = new THREE.Scene();
+  var camera = new THREE.PerspectiveCamera(55,1,0.1,100);
+  camera.position.z = 9;
+
+  var core = new THREE.Group();
+  var m1 = new THREE.MeshBasicMaterial({color:0x7a6bff,wireframe:true,transparent:true,opacity:.75});
+  var m2 = new THREE.MeshBasicMaterial({color:0xffb454,wireframe:true,transparent:true,opacity:.5});
+  var a = new THREE.Mesh(new THREE.IcosahedronGeometry(2.2,1),m1);
+  var b = new THREE.Mesh(new THREE.IcosahedronGeometry(1.2,0),m2);
+  core.add(a); core.add(b);
+  scene.add(core);
+
+  var N = 1800, pos = new Float32Array(N*3), seed = new Float32Array(N);
+  for(var i=0;i<N;i++){
+    var r = 4+Math.random()*9, t = Math.random()*6.2832, p = Math.acos(2*Math.random()-1);
+    pos[i*3]=r*Math.sin(p)*Math.cos(t); pos[i*3+1]=r*Math.sin(p)*Math.sin(t); pos[i*3+2]=r*Math.cos(p)-2; seed[i]=Math.random();
+  }
+  var geo = new THREE.BufferGeometry();
+  geo.setAttribute('position',new THREE.BufferAttribute(pos,3));
+  geo.setAttribute('seed',new THREE.BufferAttribute(seed,1));
+  var mat = new THREE.ShaderMaterial({
+    transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
+    uniforms:{uMouse:{value:new THREE.Vector3()},uTime:{value:0},uPx:{value:renderer.getPixelRatio()}},
+    vertexShader:'attribute float seed;uniform vec3 uMouse;uniform float uTime;uniform float uPx;varying float vH;'+
+      'void main(){vec3 p=position;p.y+=sin(uTime*.5+seed*20.)*.15;vec3 d=p-uMouse;float l=length(d);float f=smoothstep(3.5,0.,l);'+
+      'p+=normalize(d+.0001)*f*1.4;vH=f;vec4 mv=modelViewMatrix*vec4(p,1.);gl_PointSize=(2.+seed*2.+f*4.)*uPx*(9./-mv.z);gl_Position=projectionMatrix*mv;}',
+    fragmentShader:'varying float vH;void main(){float d=length(gl_PointCoord-.5);if(d>.5)discard;vec3 c=mix(vec3(.55,.5,1.),vec3(1.,.71,.33),vH);gl_FragColor=vec4(c,(1.-d*2.)*(.55+vH*.6));}'
+  });
+  var pts = new THREE.Points(geo,mat);
+  scene.add(pts);
+
+  var mx=0,my=0,tx=0,ty=0,scroll=0,cx=0,cy=0;
+  window.addEventListener('pointermove',function(e){
+    tx = (e.clientX/window.innerWidth)*2-1;
+    ty = -((e.clientY/window.innerHeight)*2-1);
+  },{passive:true});
+  window.addEventListener('scroll',function(){scroll=window.scrollY/Math.max(1,document.body.scrollHeight-window.innerHeight)},{passive:true});
+
+  document.querySelectorAll('.card').forEach(function(c){
+    c.addEventListener('pointermove',function(e){
+      if(reduce) return;
+      var r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+      c.style.transform='perspective(700px) rotateY('+(x*10)+'deg) rotateX('+(-y*10)+'deg)';
+    });
+    c.addEventListener('pointerleave',function(){c.style.transform=''});
+  });
+
+  function resize(){
+    var w=window.innerWidth,h=window.innerHeight;
+    renderer.setSize(w,h,false);
+    camera.aspect=w/h; camera.updateProjectionMatrix();
+    core.position.x = w<700 ? 0 : 3;
+    core.position.y = w<700 ? 2.2 : 0;
+  }
+  window.addEventListener('resize',resize); resize();
+
+  var clock=new THREE.Clock(), v=new THREE.Vector3();
+  function frame(){
+    var t=clock.getElapsedTime();
+    mx+=(tx-mx)*.06; my+=(ty-my)*.06;
+    v.set(mx,my,.5).unproject(camera).sub(camera.position).normalize();
+    var dist=-camera.position.z/v.z;
+    mat.uniforms.uMouse.value.copy(camera.position).add(v.multiplyScalar(dist));
+    mat.uniforms.uTime.value=t;
+    cx+=(mx*1.2-cx)*.05; cy+=(my*.8-cy)*.05;
+    camera.position.x=cx; camera.position.y=cy-scroll*3;
+    camera.position.z=9-scroll*3;
+    camera.lookAt(0,-scroll*3,0);
+    core.rotation.y = t*.15 + mx*1.1;
+    core.rotation.x = t*.1 - my*.9;
+    b.rotation.y = -t*.4; b.rotation.z = t*.2;
+    pts.rotation.y = t*.02 + scroll*1.5;
+    renderer.render(scene,camera);
+    if(!reduce) requestAnimationFrame(frame);
+  }
+  if(reduce){ frame(); window.addEventListener('pointermove',frame,{passive:true}); } else frame();
+})();
+</script>
+</body>
+</html>
